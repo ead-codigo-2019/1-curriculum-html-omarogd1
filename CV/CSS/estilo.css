@@ -1,0 +1,65 @@
+.fotop{ /*posicion foto independiente*/
+    position: absolute;
+    top: 30px;
+    left: 95px;
+}
+
+.fotop img{ /*redondeado*/
+    border-radius:50%;
+}
+
+.inicio{ /*Barra inicial*/
+    color: #272735;
+    background: #ecf0ff;
+    padding-left: 200px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    padding-right: 20px;
+}
+
+.caja{ /*margen*/
+    margin-left: 200px;
+    clear: both; /*partir float denuevo*/
+}
+
+.cuer1{ /*subtitulos*/
+    width: 220px;
+    height: 100px;
+    float: left;
+}
+
+.cuer2{/*lista*/
+    margin-left: 20px;
+    width: 600px;
+    height: 160px;
+    float: left; 
+}
+
+h2{
+    color: #0e0d37;
+    font-family: verdana;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+h3{
+    color: #4e4e4e;
+    font-family: Calibri;
+}
+p{
+    font-family: Calibri;
+    font-size: 13px;
+}
+li{
+    font-family: Calibri;
+    line-height: 25px;
+}
+
+.fotos{ /*foto es un poco mas chica que la caja para dejar margen*/
+    width: 280px;
+    float: left;
+}
+.descr{ /*caja mas chica que la anterior para mantener margen*/
+    color: #313131;
+    font-size: 12;
+    width: 200px;
+}
